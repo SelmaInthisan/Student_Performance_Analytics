@@ -1,42 +1,246 @@
-# Project Documentation: Student Performance Analytics System
+# Student Performance Analytics System
 
-## 1. Project Title and Student Details
-**Project:** Student Performance Analytics System  
-**Student:** [Enter your name]  
-**Course:** Python with AI  
-**Organization:** EWB Courses
+**Student Name:** Selma Inthisan
+**Project Type:** Python Data Analytics Project
+**GitHub Repository:** [https://github.com/SelmaInthisan/Student_Performance_Analytics](https://github.com/SelmaInthisan/Student_Performance_Analytics)
 
-## 2. Objective
-Analyse student marks and attendance using Python, Pandas and NumPy. Calculate totals and averages, assign grades, identify pass/fail status, compare subjects and report top performers.
+## 1. Project Overview
+
+The Student Performance Analytics System is a Python-based application designed to analyse student marks and attendance. It uses Pandas to organise student records, NumPy for numerical calculations, and Python functions, loops, and conditional statements to generate performance summaries.
+
+The system reads student data from a CSV file, calculates total and average marks, assigns grades, determines pass/fail status, analyses subject-wise and department-wise performance, identifies top performers, and exports processed results to a CSV file.
+
+## 2. Project Objectives
+
+- Read and process student records from a CSV file.
+- Organise student information using a Pandas DataFrame.
+- Use NumPy for numerical calculations.
+- Calculate total and average marks for each student.
+- Assign grades and determine pass/fail status.
+- Identify the highest- and lowest-performing students.
+- Calculate subject-wise and department-wise averages.
+- Display top-performing students.
+- Export processed results to a CSV file.
 
 ## 3. Technologies Used
-Python, Pandas, NumPy and CSV.
+
+- **Python:** Programming logic, functions, loops, and conditional statements.
+- **Pandas:** Data loading, DataFrame creation, and analysis.
+- **NumPy:** Numerical calculations and statistical operations.
+- **CSV:** Dataset storage and result export.
+- **Visual Studio Code:** Code editing and development.
+- **Git and GitHub:** Version control and project hosting.
 
 ## 4. Dataset Description
-The included `students.csv` contains 20 fictional records. Columns: Student_ID, Name, Department, Python, Mathematics, Data_Analysis and Attendance. Marks are out of 100; attendance is a percentage.
 
-## 5. Implementation
-1. `load_data()` reads the CSV using Pandas and checks required columns.
-2. `process_results()` converts subject marks to a NumPy array and calculates total and average marks.
-3. `assign_grade()` assigns grades using the documented scale.
-4. A loop checks whether each student scores at least 40 in every subject.
-5. Reporting functions display student summaries, class statistics, subject averages and top performers.
-6. Pandas saves calculated results to `student_performance_results.csv`.
+The project uses `students.csv`, which contains 20 sample student records.
 
-## 6. Key Features
-Student totals and averages; grades; pass/fail; class average and highest/lowest average; subject averages; top three performers; department averages; attendance warning; CSV results output.
+| Field         | Description                 |
+| ------------- | --------------------------- |
+| Student_ID    | Unique student identifier   |
+| Name          | Student name                |
+| Department    | Student's department        |
+| Python        | Python subject marks        |
+| Mathematics   | Mathematics subject marks   |
+| Data_Analysis | Data Analysis subject marks |
+| Attendance    | Attendance percentage       |
 
-## 7. Output / Screenshots
-Run `main.py` and capture a screenshot showing the dataset preview and reports. Add your actual screenshot here or commit it to the repository.
+The dataset contains sample data for demonstrating the application and does not represent official academic records.
 
-## 8. Final Outcome
-The system converts raw CSV student data into a readable performance report and a processed CSV file using introductory data-analysis techniques.
+## 5. Project Structure
 
-## 9. Challenges and Learning
-The project practises CSV reading, DataFrame operations, NumPy calculations, functions, loops, conditions and readable output. Add any challenges you personally faced and how you resolved them.
+```text
+Student_Performance_Analytics/
+├── main.py
+├── students.csv
+├── requirements.txt
+├── README.md
+├── sample_output.txt
+├── student_performance_results.csv
+├── Project_Documentation/
+│   └── Project_Documentation.md
+└── .gitignore
+```
 
-## 10. GitHub Repository
-Repository URL: [Paste your final GitHub repository URL here]
+**File descriptions:**
 
-## Rules
-Grades: A+ >= 90; A >= 80; B >= 70; C >= 60; D >= 50; F < 50. Pass requires at least 40 marks in every subject. Attendance is Good at 75% or above; otherwise Low.
+- `main.py` — Contains the main program and data analysis functions.
+- `students.csv` — Contains the input student dataset.
+- `requirements.txt` — Lists the required Python packages.
+- `README.md` — Provides the project overview and execution instructions.
+- `sample_output.txt` — Contains example program output.
+- `student_performance_results.csv` — Stores the processed results generated by the program.
+- `Project_Documentation.md` — Contains detailed project documentation.
+- `.gitignore` — Specifies files and folders that Git should ignore.
+
+## 6. Main Features
+
+### 6.1 Data Loading
+
+The program reads student records from `students.csv` using Pandas and stores them in a DataFrame for processing.
+
+### 6.2 Student Performance Calculation
+
+The system calculates total marks and average marks for each student across Python, Mathematics, and Data Analysis.
+
+### 6.3 Grade Calculation
+
+The program assigns grades based on the grading rules implemented in `main.py`.
+
+### 6.4 Pass/Fail Classification
+
+The program determines whether each student has passed or failed according to the conditions defined in the source code.
+
+### 6.5 Class Performance Analysis
+
+The program calculates the overall class average, highest student average, lowest student average, number of students who passed, number who failed, and pass percentage.
+
+### 6.6 Subject-Wise Analysis
+
+The system calculates average marks for Python, Mathematics, and Data Analysis to compare performance across subjects.
+
+### 6.7 Top Performers
+
+The program identifies and displays the top three students based on their average marks.
+
+### 6.8 Department-Wise Analysis
+
+The system calculates average marks for each department to compare performance across departments.
+
+### 6.9 Attendance Analysis
+
+Attendance information is included in the dataset and is analysed according to the implementation in `main.py`.
+
+### 6.10 Result Export
+
+The program saves processed student results to `student_performance_results.csv` for future reference and further analysis.
+
+## 7. Program Workflow
+
+1. Load the student dataset from the CSV file.
+2. Create a Pandas DataFrame.
+3. Calculate total and average marks for each student.
+4. Apply the grading and pass/fail rules.
+5. Calculate class-level statistics.
+6. Analyse subject-wise averages.
+7. Identify the top-performing students.
+8. Calculate department-wise averages and attendance information.
+9. Display the analysis results.
+10. Export processed results to a CSV file.
+
+## 8. Installation and Execution
+
+### Requirements
+
+- Python installed on the system.
+- Required packages listed in `requirements.txt`.
+- A code editor or terminal to execute the program.
+
+### Install Dependencies
+
+Open PowerShell in the project directory and run:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+### Run the Program
+
+```powershell
+python main.py
+```
+
+If using the project's virtual environment, run:
+
+```powershell
+.\.venv\Scripts\python.exe main.py
+```
+
+After execution, the analysis results appear in the terminal, and the processed dataset is saved to `student_performance_results.csv`.
+
+## 9. Sample Execution Results
+
+A tested run using the included 20-record dataset produced the following results.
+
+| Metric                  | Result |
+| ----------------------- | -----: |
+| Number of students      |     20 |
+| Overall class average   |  74.82 |
+| Highest student average |  96.00 |
+| Lowest student average  |  43.00 |
+| Students passed         |     18 |
+| Students failed         |      2 |
+| Pass percentage         | 90.00% |
+| Python average          |  73.55 |
+| Mathematics average     |  75.40 |
+| Data Analysis average   |  75.50 |
+
+### Top Three Performers
+
+| Student    | Average Marks |
+| ---------- | ------------: |
+| Anjali P   |         96.00 |
+| Diya Menon |         95.00 |
+| Meera S    |         91.67 |
+
+### Department-Wise Average Marks
+
+| Department | Average Marks |
+| ---------- | ------------: |
+| CSE        |         78.28 |
+| ECE        |         75.00 |
+| IT         |         85.73 |
+| ME         |         55.75 |
+
+These results correspond to the included sample dataset and may change if the dataset or program logic is modified.
+
+## 10. Testing and Validation
+
+The program was executed using the sample dataset. The tested run displayed student-level results, class performance statistics, subject-wise averages, top performers, and department-wise analysis.
+
+The program also generated the `student_performance_results.csv` file containing processed results.
+
+## 11. Challenges and Learning Outcomes
+
+**Challenge faced:** Describe one genuine issue encountered while developing or running the project.
+
+**How it was solved:** Explain the actual steps taken to resolve the issue.
+
+**Learning outcomes:** This project provided practical experience in Python programming, CSV file handling, Pandas DataFrames, NumPy calculations, reusable functions, loops, conditional statements, data analysis, and exporting processed results.
+
+Complete the challenge and solution details with your actual experience before submission.
+
+## 12. Limitations
+
+- The project analyses the supplied dataset and does not use machine learning.
+- The dataset contains sample records rather than official academic results.
+- The results depend on the input data and rules implemented in the source code.
+- The application runs in a terminal and does not include a graphical user interface or database.
+
+## 13. Future Enhancements
+
+- Add charts to visualise student marks and attendance.
+- Allow users to add or update student records interactively.
+- Support additional subjects and configurable grading rules.
+- Develop a graphical user interface or web dashboard.
+- Generate formatted PDF performance reports.
+- Add more comprehensive input validation.
+
+## 14. Conclusion
+
+The Student Performance Analytics System demonstrates how Python, Pandas, and NumPy can be used to analyse student academic records. It calculates individual totals and averages, assigns grades and pass/fail status, summarises class performance, compares subject and department averages, identifies top performers, and exports processed results.
+
+The project provides practical experience with Python programming and introductory data analytics while demonstrating how structured datasets can be converted into useful performance information.
+
+## 15. Submission Checklist
+
+- [ ] `main.py` is included and runs successfully.
+- [ ] `students.csv` is included.
+- [ ] `requirements.txt` is included.
+- [ ] `README.md` is included.
+- [ ] Generated results CSV is included if required.
+- [ ] Challenge and learning details are completed.
+- [ ] Updated files are pushed to GitHub.
+- [ ] The repository link is submitted through the required form.
+
+**GitHub Repository:** [https://github.com/SelmaInthisan/Student_Performance_Analytics](https://github.com/SelmaInthisan/Student_Performance_Analytics)
