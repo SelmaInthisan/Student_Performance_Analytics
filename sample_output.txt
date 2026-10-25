@@ -1,0 +1,21 @@
+Sample run summary (generated from the included fictional dataset)
+
+Number of students: 20
+Overall class average: 74.82
+Highest student average: 96.00
+Lowest student average: 43.00
+Passed: 18
+Failed: 2
+Pass percentage: 90.00%
+
+Subject averages:
+Python: 73.55
+Mathematics: 75.40
+Data Analysis: 75.50
+
+Top performers:
+1. Anjali P - 96.00 (A+)
+2. Diya Menon - 95.00 (A+)
+3. Meera S - 91.67 (A+)
+
+The actual terminal output is produced by running main.py.

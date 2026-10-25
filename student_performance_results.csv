@@ -1,0 +1,21 @@
+Student_ID,Name,Department,Python,Mathematics,Data_Analysis,Attendance,Total_Marks,Average_Marks,Grade,Result,Attendance_Status
+ST001,Amina Rahman,CSE,88,91,84,95,263.0,87.67,A,Pass,Good
+ST002,Rahul Nair,ECE,76,82,79,88,237.0,79.0,B,Pass,Good
+ST003,Diya Menon,CSE,95,93,97,98,285.0,95.0,A+,Pass,Good
+ST004,Arjun Das,ME,62,70,66,78,198.0,66.0,C,Pass,Good
+ST005,Fathima K,CSE,81,86,89,92,256.0,85.33,A,Pass,Good
+ST006,Nikhil P,ECE,55,61,58,72,174.0,58.0,D,Pass,Low
+ST007,Meera S,IT,92,89,94,96,275.0,91.67,A+,Pass,Good
+ST008,Adithya R,ME,48,52,45,60,145.0,48.33,F,Pass,Low
+ST009,Sneha Thomas,IT,84,87,82,91,253.0,84.33,A,Pass,Good
+ST010,Vishnu M,ECE,69,73,71,80,213.0,71.0,B,Pass,Good
+ST011,Anjali P,CSE,97,96,95,99,288.0,96.0,A+,Pass,Good
+ST012,Faris A,IT,73,78,75,85,226.0,75.33,B,Pass,Good
+ST013,Neha Joseph,ME,39,48,42,65,129.0,43.0,F,Fail,Low
+ST014,Kiran B,ECE,86,80,88,90,254.0,84.67,A,Pass,Good
+ST015,Sanjay V,CSE,58,64,62,76,184.0,61.33,C,Pass,Good
+ST016,Lakshmi R,IT,90,92,88,94,270.0,90.0,A+,Pass,Good
+ST017,Irfan T,ME,67,59,71,74,197.0,65.67,C,Pass,Low
+ST018,Pooja N,ECE,79,85,83,89,247.0,82.33,A,Pass,Good
+ST019,Joel Mathew,CSE,44,38,51,68,133.0,44.33,F,Fail,Low
+ST020,Hana F,IT,88,84,90,93,262.0,87.33,A,Pass,Good
